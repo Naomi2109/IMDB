@@ -32,7 +32,9 @@ class Professional
     public allAttributes()
     {
         for (let atributos in this)
-            console.log(this[atributos])
+        if (typeof (this[atributos]) != "function")
+                console.log(this[atributos]);    
+      
     }
 }
 
