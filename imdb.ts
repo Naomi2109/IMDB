@@ -6,4 +6,14 @@ export class Imdb{
     constructor (peliculas : Movie[]){
         this.peliculas = peliculas;
     }
+    
+    public escribirEnFicheroJSON(creaFichero:string)
+    {
+        creaFichero = JSON.stringify("")
+    }
+
+    public obtenerInstanciaIMDB(Fichero:string):Imdb
+    {
+        
+    }
 };
