@@ -9,7 +9,7 @@ export class Imdb{
     
     // public escribirEnFicheroJSON(creaFichero:string)
     // {
-    //     creaFichero = JSON.stringify("")
+    //     creaFichero = JSON.stringify()
     // } 
 
     // public obtenerInstanciaIMDB(Fichero:string):Imdb
