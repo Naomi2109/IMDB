@@ -7,13 +7,13 @@ export class Imdb{
         this.peliculas = peliculas;
     }
     
-    public escribirEnFicheroJSON(creaFichero:string)
-    {
-        creaFichero = JSON.stringify("")
-    }
+    // public escribirEnFicheroJSON(creaFichero:string)
+    // {
+    //     creaFichero = JSON.stringify("")
+    // } 
 
-    public obtenerInstanciaIMDB(Fichero:string):Imdb
-    {
+    // public obtenerInstanciaIMDB(Fichero:string):Imdb
+    // {
         
-    }
+    // }
 };

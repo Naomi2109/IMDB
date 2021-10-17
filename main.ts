@@ -28,4 +28,5 @@ fs.writeFileSync("./imdbBBDD.json", objeto, error => {
     console.log("Archivo creado");
 })
 
-fs.readFileSync("imdbBBDD.json",);
+fs.readFileSync("./imdbBBDD.json",);
+
