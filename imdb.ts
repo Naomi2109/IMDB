@@ -11,12 +11,7 @@ export class Imdb{
     {
         let objeto = JSON.stringify(this);
         let fs = require("fs");
-        fs.writeFileSync(nombreFichero, objeto, error => {
-            if (error)
-            console.log(error);
-            else
-            console.log("Archivo creado");
-        });
+        fs.writeFileSync(nombreFichero, objeto);
        
     } 
 
