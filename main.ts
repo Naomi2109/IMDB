@@ -22,12 +22,7 @@ let archivo = new Imdb([peli1, peli2]);
 
 let objeto = JSON.stringify(archivo)
 let fs =require("fs")
-fs.writeFileSync("./imdbBBDD.json", objeto, error => {
-    if (error)
-    console.log(error);
-    else
-    console.log("Archivo creado");
-})
+fs.writeFileSync("./imdbBBDD.json", objeto);
 
 archivo.escribirEnFicheroJSON("imdb.json")
 console.log(archivo.peliculas);
